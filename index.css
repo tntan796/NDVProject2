@@ -53,6 +53,37 @@
     width: 1200px;
 }
 
+/* Xử lý 3 dịch vụ */
+
+.badichvu .container{
+    padding-top: 121px;
+}
+
+.badichvu h3 a{
+    font-size: 20pt;
+    line-height: 35px;
+    color: #333333;
+    padding-top: 25px;
+    padding-bottom: 17px;
+    display: block;
+    text-align: center;
+}
+
+.badichvu p {
+    font-size: 14pt;
+    line-height: 24pt;
+    color: #333333;
+    text-align: center;
+}
+
+.badichvu .readmore {
+    text-align: center;
+    color: #ddd;
+    font-size: 14px;
+    display: block;
+    padding-top: 29px;
+}
+
 /* Xử lý cho di động */
 @media (max-width: 576px) {
     .topheader {
