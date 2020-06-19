@@ -1,0 +1,107 @@
+.topheader {
+    background-color: #222222;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+}
+
+.datban {
+    border-left: 1px solid #dddddd;
+    float: left;
+    height: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    margin-left: 17px;
+    color: #ddd;
+    padding-left: 13px;
+}
+
+.openingtop.float-right {
+    padding-right: 26px;
+    border-right: 1px solid #ddd;
+}
+
+.mangxahoi a {
+    color: #dddddd;
+    padding: 0px 13px;
+    font-size: 12px;
+}
+
+.mangxahoi a:nth-child(1) {
+    padding-left: 0px;
+}
+
+.noidungslide {
+    position: relative;
+}
+
+.noidungslide .chu {
+    position: absolute;
+    top: 50px;
+    color: white;
+    padding-top: 168px;
+    margin-left: 14%;
+}
+
+.noidungslide .chu p{
+   font-size: 14px;
+}
+
+
+.noidungslide img {
+    height: 500px;
+    width: 1200px;
+}
+
+/* Xử lý cho di động */
+@media (max-width: 576px) {
+    .topheader {
+        height: auto;
+        padding-top: 10px;
+    }
+
+    .datban {
+        border: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        border-top: 1px dashed #5a5a5a;
+        width: 100%;
+    }
+
+    #collapsibleNavId {
+        text-align: center;
+    }
+    #collapsibleNavId ul li {
+        border-top: 1px solid #ccc9c9;
+    }
+
+    #collapsibleNavId .btn-reservation {
+        display: block;
+        margin-left: auto;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .noidungslide img {
+        height: 300px;
+        width: 800px;
+    }
+
+    .noidungslide .chu {
+        position: absolute;
+        top: 20px;
+        color: white;
+        padding-top: 50px;
+        margin-left: 14%;
+    }
+
+    .noidungslide .chu h2{
+        font-size: 22px;
+    }
+
+    .noidungslide .chu p{
+        font-size: 14px;
+    }
+}
+/* Hết xử lí cho di động */
