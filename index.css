@@ -82,6 +82,36 @@
     font-size: 14px;
     display: block;
     padding-top: 29px;
+    padding-bottom: 80px;
+}
+
+
+.khoimenu {
+    background: url(./images/anhmenu.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.tieudekhoimenu {
+    display: table;
+    height: 550px;
+    margin: auto;
+}
+
+.tieudekhoimenu .container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tieudephu {
+    font-size: 30px;
+    color: #feb518;
+    font-weight: 700;
+}
+
+.tieudechinh {
+    font-size: 36px;
+    font-weight: bold;
 }
 
 /* Xử lý cho di động */
@@ -161,12 +191,40 @@
         text-align: center;
     }
 
+    .badichvu img{
+       height: 200px;
+       width: 100%;
+    }
+
     .badichvu .carousel-item {
         border-top: 1px solid #949191;
     }
 
     .badichvu .container{
         padding-top: 50px;
+    }
+
+    /* Khối 3 dịch vụ */
+    .tieudekhoimenu {
+        display: table;
+        height: 350px;
+        margin: auto;
+    }
+    
+    .tieudekhoimenu .container {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    .tieudephu {
+        font-size: 15px;
+        color: #feb518;
+        font-weight: 700;
+    }
+    
+    .tieudechinh {
+        font-size: 20px;
+        font-weight: bold;
     }
 }
 /* Hết xử lí cho di động */
