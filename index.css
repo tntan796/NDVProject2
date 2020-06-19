@@ -134,5 +134,39 @@
     .noidungslide .chu p{
         font-size: 14px;
     }
+
+    .badichvu .readmore {
+        text-align: center;
+        color: #ddd;
+        font-size: 14px;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .badichvu p {
+        font-size: 12pt;
+        line-height: 20pt;
+        color: #333333;
+        text-align: center;
+    }
+
+    .badichvu h3 a{
+        font-size: 16pt;
+        line-height: 15px;
+        color: #333333;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        display: block;
+        text-align: center;
+    }
+
+    .badichvu .carousel-item {
+        border-top: 1px solid #949191;
+    }
+
+    .badichvu .container{
+        padding-top: 50px;
+    }
 }
 /* Hết xử lí cho di động */
