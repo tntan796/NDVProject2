@@ -267,6 +267,55 @@
     display: none;
 }
 
+.gioithieudaubep img {
+    padding-top: 107px;
+    /* min-height: 576px; */
+    width: 100%;
+}
+
+.gioithieudaubep .thongtin {
+    padding-top: 197px;
+}
+
+.gioithieudaubep .tendaubep {
+    font-size: 30px;
+    color: #333;
+}
+
+.gioithieudaubep .font-dancing {
+    font-style: italic;
+    color: #feb518;
+    font-size: 21px;
+    display: block;
+    padding-bottom: 25px;
+}
+
+.gioithieudaubep .lienhe  {
+    line-height: 26px;
+    color: #777;
+}
+
+.gioithieudaubep .icondb {
+    background: rgb(27, 27, 27, 0.9);
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    color: white;
+    margin-right: 4px;
+    border-radius: 3px;
+}
+
+.gioithieudaubep .icondb:hover {
+    background: rgba(3, 154, 241, 0.9);
+    color: white;
+}
+
+
+
+
+
 /* Xử lý cho di động */
 @media (max-width: 576px) {
     .topheader {
@@ -390,25 +439,43 @@
 
     
 
-.slidemonan .carousel-control-prev {
-    position: absolute;
-    width: 20px !important;
-    height: 20px !important;
-    top: -40px !important;
-    left: 84% !important;
-    background: rgb(83, 84, 85, 0.7);
-    color: white;
-}
+    .slidemonan .carousel-control-prev {
+        position: absolute;
+        width: 20px !important;
+        height: 20px !important;
+        top: -40px !important;
+        left: 84% !important;
+        background: rgb(83, 84, 85, 0.7);
+        color: white;
+    }
 
 
-.slidemonan .carousel-control-next {
-    position: absolute;
-    width: 20px !important;
-    height: 20px !important;
-    top: -40px !important;
-    left: 90% !important;
-    background: rgb(83, 84, 85, 0.7);
-    color: white;
-}
+    .slidemonan .carousel-control-next {
+        position: absolute;
+        width: 20px !important;
+        height: 20px !important;
+        top: -40px !important;
+        left: 90% !important;
+        background: rgb(83, 84, 85, 0.7);
+        color: white;
+    }
+
+    .gioithieudaubep .thongtin {
+        padding-top: 50px;
+    }
+
+    .gioithieudaubep img {
+        padding-top: 30px;
+        /* min-height: 576px; */
+        width: 100%;
+    }
+
+    .gioithieudaubep .lienhe {
+        text-align: justify;
+    }
+    .gioithieudaubep .daubepcontact {
+        text-align: center;
+        margin: 10px;
+    }
 }
 /* Hết xử lí cho di động */
