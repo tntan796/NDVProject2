@@ -267,6 +267,9 @@
     display: none;
 }
 
+.gioithieudaubep {
+    margin-bottom: 20px;
+}
 .gioithieudaubep img {
     padding-top: 107px;
     /* min-height: 576px; */
@@ -277,9 +280,10 @@
     padding-top: 197px;
 }
 
-.gioithieudaubep .tendaubep {
-    font-size: 30px;
+.gioithieudaubep h2.tendaubep {
+    font-size: 40px;
     color: #333;
+    font-family: 'Dancing Script', cursive;
 }
 
 .gioithieudaubep .font-dancing {
@@ -288,6 +292,7 @@
     font-size: 21px;
     display: block;
     padding-bottom: 25px;
+    font-family: 'Dancing Script', cursive;
 }
 
 .gioithieudaubep .lienhe  {
@@ -313,8 +318,61 @@
 }
 
 
+.sloganhome .fontdancing {
+    font-family: 'Dancing Script', cursive;
+}
+.sloganhome .fontroboto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
 
+.sloganhome {
+    padding: 230px 0;
+    background: #3e3e3e;
+    color: white
+}
+.sloganhome h3.fontdancing {
+    font-size: 36px;
+    line-height: 50px;
+    color: #feb518;
+}
 
+.sloganhome h3.fontroboto {
+    font-size: 36px;
+    line-height: 50px;
+    color: white;
+}
+
+.khoidatban {
+    padding-top: 100px;
+}
+
+.thongtindatban {
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 61px;
+    margin-bottom: 53px;
+}
+
+.khoidatban .thongtindatban h2{
+    font-size: 26px;
+    color: #333;
+}
+
+.khoidatban .thongtindatban .tt,p {
+    font-size: 15px;
+    line-height: 26px;
+    padding-top: 37px;
+}
+
+.thongtindatban .vang {
+    color: #fec445;
+}
+
+.thongtindatban .dtdb {
+    font-size: 25px;
+    color: #333333;
+    font-weight: bold;
+}
 
 /* Xử lý cho di động */
 @media (max-width: 576px) {
@@ -476,6 +534,10 @@
     .gioithieudaubep .daubepcontact {
         text-align: center;
         margin: 10px;
+    }
+
+    .sloganhome {
+        padding: 150px 0;
     }
 }
 /* Hết xử lí cho di động */
