@@ -81,8 +81,8 @@
     color: #ddd;
     font-size: 14px;
     display: block;
-    padding-top: 29px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 
@@ -345,7 +345,7 @@
     }
 
     .badichvu img{
-       height: 200px;
+       height: 220px;
        width: 100%;
     }
 
