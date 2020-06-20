@@ -385,8 +385,41 @@ a.booktable {
     color: white;
     font-weight: bold;
 }
+.quote::before , .quote::after{
+    content: '"';
+}
+.tennguoi:before {
+    content: '-'
+}
 
+.phanhoinguoidung {
+    background: #787878;
+    margin-top: 120px;
+    color: white;
+    padding: 92px 0;
 
+}
+
+.phanhoinguoidung i.fa {
+    font-size: 36px;
+    margin-bottom: 66px;
+}
+
+.phanhoinguoidung .quote {
+    line-height: 36px;
+    font-size: 18px;
+}
+.phanhoinguoidung .tennguoi {
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    margin-top: 23px;
+    display: inline-block;
+    color: #fec445;
+}
+
+.phanhoinguoidung ol.carousel-indicators {
+    bottom: -59px;
+}
 
 /* Xử lý cho di động */
 @media (max-width: 576px) {
@@ -552,6 +585,10 @@ a.booktable {
 
     .sloganhome {
         padding: 150px 0;
+    }
+
+    a.booktable {
+        width: 100%;
     }
 }
 /* Hết xử lí cho di động */
