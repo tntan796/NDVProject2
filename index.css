@@ -115,7 +115,9 @@
 }
 
 /* Phần xử lí thực đơn chi tiết */
-.thucdonct {
+.thucdonct .container{
+    /* height: 400px;
+    overflow: hidden; */
 }
 
 .thucdonct .tieudect {
@@ -127,19 +129,13 @@
 
 .thucdonct .tieudect a{
     color: gold;
-    padding: 5px 10px;
-    text-decoration: none;
-    height: 100%;
-}
-
-.thucdonct .tieudect a:hover{
-    background: dodgerblue;
-    color: white;
+    padding: 5px 10px
 }
 
 .thucdonct .noidungct {
     position: relative;
-    margin-top: 50px;
+    margin-top: 100px;
+    height: auto;
 }
 
 .thucdonct .noidungct .noidung{
@@ -147,6 +143,10 @@
     /* border: 1px solid red; */
     position: absolute;
     top: 0px;
+}
+
+.thucdonct .container {
+    margin-top: -40px;
 }
 
 /* Hiệu ứng lọc món ăn */
@@ -202,6 +202,69 @@
 
 .dinner {
     opacity: 0;
+}
+
+.sanpham {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.sanpham img {
+    height: 100px;
+    width: 100%;
+}
+
+.slidemonan {
+    background: url(./images/backgroundslidemonan2.jpg);
+    background-size: cover;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.slidemonan .container {
+    position: relative;
+}
+
+.slidemonan .tieude {
+    padding: 10px 0px;
+    color: white;
+}
+
+.slidemonan .tencongthuc {
+    font-size: 12px;
+    color: #adaaaa;
+}
+
+.slidemonan .ten, .gia {
+    font-weight: bold;
+}
+
+.slidemonan .carousel-control-prev {
+    position: absolute;
+    width: 34px !important;
+    height: 34px !important;
+    top: -40px !important;
+    left: 90% !important;
+    background: rgba(139, 141, 143, 0.7);
+    color: white;
+}
+
+
+.slidemonan .carousel-control-next {
+    position: absolute;
+    width: 34px !important;
+    height: 34px !important;
+    top: -40px !important;
+    left: 95% !important;
+    background: rgb(83, 84, 85, 0.7);
+    color: white;
+}
+
+.slidemonan .carousel-indicators {
+    display: none;
 }
 
 /* Xử lý cho di động */
@@ -316,5 +379,36 @@
         font-size: 20px;
         font-weight: bold;
     }
+
+    .thucdonct .noidungct {
+        margin-top: 100px;
+    }
+
+    .slidemonan {
+        margin-top: 20px
+    }
+
+    
+
+.slidemonan .carousel-control-prev {
+    position: absolute;
+    width: 20px !important;
+    height: 20px !important;
+    top: -40px !important;
+    left: 84% !important;
+    background: rgb(83, 84, 85, 0.7);
+    color: white;
+}
+
+
+.slidemonan .carousel-control-next {
+    position: absolute;
+    width: 20px !important;
+    height: 20px !important;
+    top: -40px !important;
+    left: 90% !important;
+    background: rgb(83, 84, 85, 0.7);
+    color: white;
+}
 }
 /* Hết xử lí cho di động */
