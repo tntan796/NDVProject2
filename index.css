@@ -116,24 +116,28 @@
 
 /* Phần xử lí thực đơn chi tiết */
 .thucdonct {
-
 }
 
 .thucdonct .tieudect {
     height: 40px;
     line-height: 40px;
-    background: brown;
-    color: white;
+    background: rgba(201, 203, 206, 0.4);
+    text-align: center;
+}
+
+.thucdonct .tieudect a{
+    color: gold;
+    padding: 5px 10px
 }
 
 .thucdonct .noidungct {
     position: relative;
-
+    margin-top: 50px;
 }
 
 .thucdonct .noidungct .noidung{
     height: 400px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: absolute;
     top: 0px;
 }
@@ -179,6 +183,18 @@
 .duoi {
     color: #777;
     font-size: 12px;
+}
+
+.breakfast {
+    opacity: 1;
+}
+
+.lunch {
+    opacity: 0;
+}
+
+.dinner {
+    opacity: 0;
 }
 
 /* Xử lý cho di động */
