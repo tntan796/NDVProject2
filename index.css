@@ -374,6 +374,20 @@
     font-weight: bold;
 }
 
+.formdatban h2.tieude {
+    font-size: 22px;
+    color: #333;
+    padding-bottom: 60px;
+}
+
+a.booktable {
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
 /* Xử lý cho di động */
 @media (max-width: 576px) {
     .topheader {
