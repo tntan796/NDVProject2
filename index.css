@@ -472,8 +472,83 @@ a.booktable {
     font-size: 14px;
 }
 
+.footertop {
+    background: #151515;
+    color: #888;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 113px;
+    padding-bottom: 100px;
+}
 
+.cotf1 p {
+    padding-top: 17px;
+}
 
+.cotf1 i.fa {
+    padding-right: 20px;
+    float: left;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    color: rgb(230, 224, 224);
+}
+.footertop .motdong {
+    overflow: hidden;
+    padding: 3px 0;
+}
+
+h2.tdft {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ccc;
+    position: relative;
+    margin-bottom: 38px;
+}
+
+h2.tdft:after {
+    width: 32px;
+    height: 1px;
+    content: '';
+    display: block;
+    background: #feb518;
+    position: absolute;
+}
+
+.cotf2 ul li a, .cotf3 ul li a {
+    color: #888888;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.cotf2 ul, .cotf3 ul{
+    padding: 0;
+    list-style: none; 
+}
+
+.cotf2 ul li a:hover, .cotf3 ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.cotf4 div.openning1{
+    margin-bottom: 13px;
+    border-bottom: 1px dotted gray;
+    height: 28px;
+    margin-top: -9px;
+}
+
+.cotf4 .phai.float-right {
+    background: #151515;
+    transform: translateY(9px);
+    padding-left: 10px;
+}
+
+.cotf4 .trai {
+    float: left;
+    background: #151515;
+    transform: translateY(9px);
+    padding-right: 10px;
+}
 
 /* Xử lý cho di động */
 @media (max-width: 576px) {
