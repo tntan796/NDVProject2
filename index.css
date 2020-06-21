@@ -421,6 +421,60 @@ a.booktable {
     bottom: -59px;
 }
 
+.tintuchome {
+    padding: 120px 0px;
+}
+
+.tdtintuchome span {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: goldenrod;
+}
+
+.tdtintuchome h2{
+    font-size: 26px;
+    color: #333;
+}
+
+.tintuchome .tieudetin1 {
+    font-size: 18px;
+    color: black;
+    padding: 26px 0 12px 0;
+    display: block;
+    font-weight: bold;
+}
+
+.tintuchome .ngaythang1 {
+    line-height: 24px;
+    font-size: 17px;
+    display: inline-block;
+    color: #777;
+    padding: 12px 0 19px 0;
+}
+
+.tintuchome .vang {
+    color: goldenrod;
+}
+
+.tintuchome .docthem {
+    color: #777777;
+    font-size: 13px;
+    height: 40px;
+    border-top: 1px dashed gray;
+    margin-top: 27px;
+    padding-top: 17px;
+}
+
+.tintuchome .docthem .rm {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333333;
+    font-size: 14px;
+}
+
+
+
+
 /* Xử lý cho di động */
 @media (max-width: 576px) {
     .topheader {
