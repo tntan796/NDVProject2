@@ -550,6 +550,15 @@ h2.tdft:after {
     padding-right: 10px;
 }
 
+.footerbottom {
+    line-height: 91px;
+    height: 91px;
+    background: #111;
+    color: #373a3c;
+}
+
+
+
 /* Xử lý cho di động */
 @media (max-width: 576px) {
     .topheader {
@@ -718,6 +727,20 @@ h2.tdft:after {
 
     a.booktable {
         width: 100%;
+    }
+
+    .footertop {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .footertop .cotf1 {
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+
+    .tintuchome {
+        padding: 120px 0px 20px 0px;
     }
 }
 /* Hết xử lí cho di động */
